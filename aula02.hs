@@ -85,3 +85,13 @@ fat n = if n == 1 then 1 else n * fat (n - 1)
 
 -- Criando inha própria função de soma
 -- soma u = if null u then 0 else head u + soma (tail u)
+
+-- [x*x | x <- [1..10]]
+-- [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+-- Cria uma lista com o quadrado dos números de 1 a 10
+
+-- [if mod x 2 == 0 then x else 0 | x <- [1..10]]
+-- [0, 2, 0, 4, 0, 6, 0, 8, 0, 10]
+
+-- [x | x <- [1..10], mod x 2 == 0]
+-- [2, 4, 6, 8, 10]
