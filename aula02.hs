@@ -1,4 +1,4 @@
-fat n = if n == 1 then 1 else n * fat (n - 1)
+-- fat n = if n == 1 then 1 else n * fat (n - 1)
 
 -- Tipos de dados
 -- Int, Integer, Float, Double, Char, Bool, Tuple, List
