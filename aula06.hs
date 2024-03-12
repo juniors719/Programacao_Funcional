@@ -10,8 +10,14 @@ upper c = if null f
         z = zip a b
         f = [ snd t | t <- z, fst t == c ]
 
-cap :: String -> String
+capWord :: String -> String
+capWord "" = ""
+capWord [a] = [upper a]
+capWord (a:s) = (upper a) : s
+
+
+{- cap :: String -> String
 cap "" = ""
 cap s = map (upper )
     where
-        w = words s
+        w = words s -}
