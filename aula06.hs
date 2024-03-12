@@ -16,8 +16,9 @@ capWord [a] = [upper a]
 capWord (a:s) = (upper a) : s
 
 
-{- cap :: String -> String
+cap :: String -> String
 cap "" = ""
-cap s = map (upper )
+cap s = unwords ls
     where
-        w = words s -}
+        wls = words s
+        ls = [capWord w | w <- wls]
