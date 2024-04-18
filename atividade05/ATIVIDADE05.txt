@@ -1,0 +1,15 @@
+Atividade 05
+
+-- 1
+
+Determinar se um ano é ou não bissexto
+
+-- 2
+
+Converter de uma escala de temperatura para outra. Há três argumentos de entrada. O primeiro é o valor numérico da temperatura, o segundo representa a escala desse valor e o terceiro a escala do valor oriundo da conversão . Tais unidades são representadas por caracteres onde 'C' simboliza Célcios, 'F'   Fahrenheit e 'K' Kelvin.
+
+-- 3
+
+Num dado jogo, fichas são rotuladas com letras.  uma rodada pode ser representada por uma seringã  onde cada letra é uma ficha jogada. Um computador gera uma lista   de duplas  do tipo (letra, valor) . A pontuação total da rodada é dada pela soma dos alores cujos caracteres estão na lista. 
+
+
